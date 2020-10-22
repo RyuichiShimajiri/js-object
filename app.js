@@ -143,9 +143,24 @@ function printMessage(doraretu, dorasuu){
 }
 printMessage("どらえもん",4);
 
+// 関数名：printMaxNum
+// 引数1：1つの数値
+// 引数2：1つの数値
+// // 処理内容：引数で受け取った2つの数値のうち、最も大きな数値を出力する。
 
+function printmaxNum(num1,num2){
+	if (num1 > num2){
+		console.log(num1);
+		}else if(num2 > num1){
+			console.log(num2);
+		}
+		}
+	
+printmaxNum(1,8);
 
-
+// 関数名：getSquared
+// 引数1：1つの数値
+// 処理内容：引数で受け取った数値の2乗を計算し返す
 
 
 
