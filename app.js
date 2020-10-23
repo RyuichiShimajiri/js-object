@@ -153,14 +153,19 @@ function printmaxNum(num1,num2){
 		console.log(num1);
 		}else if(num2 > num1){
 			console.log(num2);
-		}
+		}else{
+			console.log("同じ");
+	}
 		}
 	
-printmaxNum(1,8);
+printmaxNum(1,1);
 
 // 関数名：getSquared
 // 引数1：1つの数値
 // 処理内容：引数で受け取った数値の2乗を計算し返す
+
+// 戻り値（返り値）return 値；の形で、実行した側に戻される値
+// 引数と逆方向に値を送る（返す）
 
 function getSquared(num){
   return num*num
@@ -181,12 +186,14 @@ console.log(result)
 // 私の名前はNexSeedです
 
 function createSelfIntroductionText(moji){
-   return moji
+   var msg ="私の名前は" + moji +"です";
+      return msg;
 }
 
 var message = createSelfIntroductionText("Ryuichi");
 console.log(message);
 
+// 
 
 // 関数名：isEvenNumber
 // 引数1：1つの数値
