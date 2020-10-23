@@ -162,6 +162,75 @@ printmaxNum(1,8);
 // 引数1：1つの数値
 // 処理内容：引数で受け取った数値の2乗を計算し返す
 
+function getSquared(num){
+  return num*num
+}
+var result = getSquared(3)
+console.log(result)
+
+// 関数名：createSelfIntroductionText
+// 引数1：1つの文字列
+// 処理内容：「私の名前は○○です」という文字の〇〇を引数で受け取った文字列にし返す
+
+// 例
+
+// var message = createSelfIntroductionText("NexSeed");
+// console.log(message);
+
+// // 実行結果
+// 私の名前はNexSeedです
+
+function createSelfIntroductionText(moji){
+   return moji
+}
+
+var message = createSelfIntroductionText("Ryuichi");
+console.log(message);
+
+
+// 関数名：isEvenNumber
+// 引数1：1つの数値
+// 処理内容：引数で渡された値が偶数の場合は true、そうでない場合は false を返す。
+
+// 例
+
+// var result = isEvenNumber(3);
+// console.log(result);
+
+// // 実行結果
+// false
+
+function isEvenNumber(num){
+	if (num % 2 === 0){
+		return true;
+		}else{
+		return false;
+		}
+}
+
+var result = isEvenNumber(2);
+console.log(result);
+
+
+// 関数名：isSeedKun
+// 引数1：任意の文字列
+// 処理内容：引数で渡された文字列が「SeedKun」の場合は true、そうでない場合は false を返す。
+
+function isSeedKun(moji){
+	if (moji ==="Seedkun"){
+		return true;
+		}else{
+		return false;
+		}
+}
+
+var result = isSeedKun("ddd");
+console.log(result);
+
+
+
+
+
 
 
 
